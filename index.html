@@ -1,0 +1,139 @@
+   <!--DOCTYPE le dice al navegador que ese archivo es un tipo html-->
+     <!DOCTYPE html>
+
+    <html lang="es">
+    <head>
+     <!--Titulos-->
+      <title>Romina</title>
+       <link rel="stylesheet" href="style.css">
+       
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <!--Dentro de mi body (cuerpo) vamos a poner lo que el usarix ve-->
+     <body>
+      <!--Division de pruebas-->
+      <!--Main-->
+      <main>
+         <h1 class="titulo-web">Web Cocker</h1>
+
+         <nav class="navegador">
+            <ul class="menu">
+               <li class="foto">
+               <a href="#fotos">Fotitos Bellas</a>
+               </li>
+               <li class="amor">
+               <a href="#amor">Amor/Odio</a>
+               </li>
+               <li class="info">
+               <a href="#info">¿Cómo son?</a>
+               </li>
+               <li>
+               <a href="#conocer">Quiero conocer a tu cocker</a>
+               </li>
+            </ul>
+            </nav>
+
+         <div class="imagenes">
+         <h2 id="fotos">Imágenes de Cockers</h2>
+         <!--Atributos son src (SOURCE de dónde viene)-->
+         <img class="cocker1" src="Imagenes/11.jpg">
+         <br>
+         <img class="imagen-2-carita" src="Imagenes/12.jpg">
+         </div>
+
+         <!--Listas-->
+         <h3 id="amor">Amor/Odio</h3>
+         <div>
+            <p> <em>Lista hecho por Andrea García</em> </p>
+
+            <!--Lista no ordenada-->
+          <div class="tabla-1">
+            <p class="aman"> <b>Cosas que los cockers aman</b> </p> 
+            <ul>
+               <li>Jamón</li> <!--item de la lista-->
+               <li>Cama</li>
+               <li>Sol</li>
+              <img class="jamon" src="/Imagenes/jamon.png" alt=""> 
+              <img class="cama" src="/Imagenes/cama.png" alt=""> 
+              <img class="sol" src= "/Imagenes/dom.png" alt=""> 
+            </ul>
+          </div> 
+
+          <div class="tabla-2">
+            <p class="odian"> <b>Cosas que los cockers odian</b></p>
+            <!-- Lista ordenada (ol) = ordered list-->
+            <ol>
+               <li>Juguetes</li>
+               <li>Verduras</li>
+               <li>Cepillarse</li>
+            </ol>
+
+            <img class="juguete" src="/Imagenes/juguete-del-perro.png" alt="Ilustración">
+            <img class="verduras" src="/Imagenes/verduras.png">
+            <img class="cepillo" src="/Imagenes/cepillo.png">
+
+          </div> 
+
+         </div>
+
+         <div id="info">
+            <a href="#parrafo-1">Personalidad</a>
+            <a href="#parrafo-2">Origen</a>
+            <a href="#parrafo-3">Aseo</a>
+
+            <h3 id="parrafo-1">Personalidad</h3>
+            <p>Estos perros activos y amistosos necesitan la compañía humana para sentirse bien y quieren complacer a sus amos más que nada. Son perros ideales para hogares con niños y se llevan bien con los demás animales domésticos. El cocker es un perro muy feliz que mueve la cola y lleva «regalos» a todo el mundo</p>
+         
+            <h3 id="parrafo-2">Origen</h3>
+            <p>El cocker inglés es uno de los tipos más antiguos de spaniels de tierra. Sus orígenes se remontan al siglo XIV en España. Antes del siglo XVII, todos los tipos de spaniel se incluían en la misma categoría: los más grandes se usaban para levantar la caza y los más pequeños para hacer salir a las perdices </p>
+
+            <h3 id="parrafo-3">Aseo</h3>
+            <p>Debes cepillarle el pelo varias veces a la semana y revisarle las orejas con regularidad para que estén limpias y sanas. Deberás llevarlo a un peluquero canino 3 o 4 veces al año para que le quite del pelo sobrante, el llamado stripping. Aun así, si te es posible, pues aprender a hacerlo tú mismo.</p>
+         
+            
+            <p>Encuentra más información la imagen o en este <a href="https://www.purina.es/encuentra-mascota/razas-de-perro/cocker-spaniel-ingles">link</a></p> 
+            <a href="https://www.purina.es/encuentra-mascota/razas-de-perro/cocker-spaniel-ingles"><img class="cockerlink" src="https://www.purina.es/sites/default/files/styles/ttt_image_original/public/2021-02/BREED%20Hero%20Desktop_0020_spaniel_cocker.webp?itok=7ZPrj8FE" alt=""></a>
+      
+         </div>
+
+           <!--Formularios con radio--> 
+           <p> ¿Tu cocker es cachorro o adulto? </p> 
+            <!--Cachorro--> 
+            <label for="Cachorro">
+               <input id="cachorro" type="radio" value="cachorro" name="edad"> Cachorro 🐶
+            </label>  
+            <!--adulto-->
+            <label for="adulto">
+               <input id="adulto" type="radio" value="adulto" name="edad"> Adulto 🐩
+            </label> 
+            
+           <!--Formulario con checkbox-->
+           <p id="conocer">¿Que tipo de cocker es el tuyo?</p>
+           <label for="spaniel ingles">
+               <input id="Spaniel inglés" type="checkbox" value="Spaniel inglés" name="tipo de raza"> Spaniel Inglés
+           </label>
+
+           <label for="Spaniel americano">
+            <input id="Spaniel americano" type="checkbox" value="Spaniel america" name="tipo de raza"> Spaniel Americano
+           </label>
+
+           <label for="No tengo cocker">
+            <input id="No tengo cocker" type="checkbox" value="No tengo cocker" name="tipo de raza"> No tengo Cocker
+           </label>
+
+           <label for="No lo sé">
+            <input id="No lo sé" type="checkbox" value="No lo sé" name="tipo de raza"> No lo sé
+           </label>
+
+
+      </main>
+      <footer>
+         <p>Página creada por <a href="https://www.instagram.com/andi_zam/">Andrea García</a>
+            en honor a su perrita "Romina" 💜</p>
+            
+      </footer>
+     </body> 
+</html>

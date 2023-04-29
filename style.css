@@ -1,0 +1,133 @@
+/*Aqui va el comentario*/
+body{
+  background-image: url(https://www.solofondos.com/wp-content/uploads/2016/09/fondos-de-pantalla-rosa-palo.jpg);
+  color: rgb(112, 112, 175);
+  font-family: 'Outfit', sans-serif;
+  font-size: 35px;
+}
+
+p {
+  color: rgb(87, 86, 86);  
+  font-size: 30px;
+}
+
+h1 { 
+  color: rgb(240, 19, 122);
+}
+
+main nav {
+  
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(214, 177, 212);
+
+}
+
+main nav .menu {
+  font-style: italic;
+  display: flex;
+  font-size: 15px;
+  list-style: none;
+  align-items: center;
+  margin-right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main nav a {
+  color:rgb(231, 39, 103);
+  margin-right: 13px;
+  text-decoration-line: none;
+  font-size: medium;
+  text-shadow: 40px;
+}
+
+
+/*Para agrenar una clase, ponemos (.)antes del nombre*/
+.titulo-web {
+    color: blueviolet;
+    font-size: 100px;
+    text-align: center;
+}
+img {
+    width: 300px; /*Width - ancho*/;
+    height: auto;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: baseline;
+}
+.imagen-2-carita {
+    height: 180px;
+    justify-content: center;
+}
+
+.tabla-1 {
+  width: 500px;
+  height: 500px;
+  background: rgb(179, 179, 219);
+  margin: 20px;
+  padding: 50px;
+}
+
+.sol {
+  width: 120px;
+  height: 200px;
+  margin: 10px;
+}
+
+.jamon {
+  width: 120px;
+  height: 200px;
+  margin: 10px;
+}
+
+.cama {
+  width: 120px;
+  height: 200px;
+  margin: 10px;
+}
+
+.aman {
+  color: rgb(211, 118, 134);
+  font-size: 30px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.tabla-2 {
+  width: 500px;
+  height: 500px;
+  background: rgb(179, 179, 219);
+  margin: 20px;
+  padding: 50px;
+}
+
+.odian {
+  color: rgb(211, 118, 134);
+  font-size: 30px;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.juguete {
+  width: 120px;
+  height: 200px;
+  margin: 10px;
+}
+
+.verduras {
+  width: 120px;
+  height: 200px;
+  margin: 10px;
+}
+
+.cepillo {
+  width: 120px;
+  height: 200px;
+  margin: 10px;
+}
+
+.cockerlink {
+  width: 600px;
+  height: 400px;
+}
